@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" verbose="5">
+	<test name="Test">
+
+		<parameter name="browserType" value="FF"></parameter>
+		<parameter name="url" value="https://www.retailmenot.com/"></parameter>
+		<parameter name="categoryName" value="Electronics"></parameter>
+		<parameter name="categoryCount" value="13"></parameter>
+		<classes>
+			<class name="com.retailmenot.Test.TestA" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
